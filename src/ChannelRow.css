@@ -1,0 +1,37 @@
+.channelrow {
+    display: flex;
+}
+
+.channel__logo{
+    height: 200px;
+    width: 200px;
+}
+
+.channelrow > div {
+    margin-left: 20px;
+    top: 0;
+}
+
+.channel__text{
+    color: #606060;
+}
+
+.subsButton {
+    padding: 40px;
+   
+
+}
+
+.subsButton > input {
+    height: 40px;
+    width: 120px;
+    background-color: rgb(175, 8, 8);
+    color: white;
+    font-weight: bold;
+    font-size: larger;
+    border: none;
+}
+
+.subsButton > input:hover {
+    cursor: pointer;
+}

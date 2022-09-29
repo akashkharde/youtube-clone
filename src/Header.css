@@ -1,0 +1,78 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4px;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    height: 60px;
+
+}
+
+.header__logo {
+    height: 70px;
+    object-fit: contain;
+    margin-left: 10px;
+}
+
+.header_left {
+    align-items: center;
+    display: flex;
+}
+
+.header__input {
+    display: flex;
+    align-items: center;
+     border: 1px solid black;  
+     width: 55%;
+    
+}
+
+
+
+.header__inputbutton {
+    width: 40px !important;
+    background-color: #fafafa;
+    color: grey;
+    height: 20px;
+    border-left: 1px solid black;
+    
+}
+
+.header__inputbutton:hover {
+    cursor: pointer;
+}
+
+.header__input > input{
+    flex: 1;
+    border: none;
+    height: 30px;
+}
+
+.menuIcon:hover {
+    cursor: pointer;
+}
+
+.header__right {
+    display: flex;
+    align-items: center;
+    margin-right: 8px;
+}
+.Icons{
+    height: 20px;
+    width: 20px;
+    padding: 3px;
+}
+.mic {
+    background-color: lightgray;
+    border: none;
+}
+
+@media screen and (max-width: 600px) {
+    .inpbox{
+        display: none;
+    }
+}
+
+

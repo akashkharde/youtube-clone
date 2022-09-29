@@ -1,0 +1,28 @@
+
+    .sideBar {
+        flex-direction: column;
+        flex: 0.2;
+        display: flex;
+        width: auto;
+    }
+
+    
+    .sideBar>hr {
+        height: 1px;
+        border: none;
+        background-color: rgb(48, 47, 47);
+    }
+
+
+
+/* @media screen and (max-width: 1200px) {
+    .sideBar{
+        width: 20%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .sideBar{
+        width: 20%;
+    }
+} */
